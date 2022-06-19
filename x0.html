@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="x0.css">
+  <title>X & 0</title>
+</head>
+<body onload="onLoadPage()">
+<div id="main">
+<h1 >  Game   X & 0    </h1>
+<p id="score">Score :  X  <span id="scoreX">0</span> --- 0  <span id="score0">0</span>
+<br> <br>
+<input type="text" class="cell" id="11"  onclick= "onCellPressed(11);" readonly>
+ <input type="text" class="cell"  id="12" onclick= "onCellPressed(12);" readonly>
+<input type="text" class="cell" id="13" onclick= "onCellPressed(13);" readonly>
+ <br><br>
+<input type="text" class="cell" id="21" onclick= "onCellPressed(21);" readonly>
+ <input type="text" class="cell" id="22" onclick= "onCellPressed(22);" readonly>
+<input type="text" class="cell" id="23" onclick= "onCellPressed(23);" readonly>
+ <br><br>
+<input type="text" class="cell" id="31" onclick= "onCellPressed(31);" readonly>
+ <input type="text" class="cell" id="32" onclick= "onCellPressed(32);" readonly>
+<input type="text" class="cell" id="33" onclick= "onCellPressed(33);" readonly>
+<br><br><br>
+<input type="button" id="btnRst" onclick="btnReset();" value=RESET>
+<p id="msgBottom">Push a cell to start game with X</p>           
+ <script type="text/javascript" src="x0.js"></script>
+
+</div>
+</body>
+</html>
